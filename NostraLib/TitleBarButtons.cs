@@ -8,7 +8,7 @@ namespace NostraLib;
 
 public class TitleBarButtons
 {
-    public Window.TitleBarButton DonationButton => new Window.TitleBarButton()
+    public TitleBarButton DonationButton => new TitleBarButton()
     {
         Icon = FontAwesomeIcon.Heart,
         ShowTooltip = () =>
@@ -37,7 +37,7 @@ public class TitleBarButtons
         AvailableClickthrough = true
     };
 
-    public Window.TitleBarButton DiscordButton => new Window.TitleBarButton()
+    public TitleBarButton DiscordButton => new TitleBarButton()
     {
         Icon = FontAwesomeIcon.At,
         ShowTooltip = () =>
